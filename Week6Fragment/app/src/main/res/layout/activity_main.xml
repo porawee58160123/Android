@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porawee.week6fragment.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/BtnFragmentRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment_Register"
+            android:onClick="ChangeFragment"
+            />
+
+        <Button
+            android:id="@+id/BtnFragmentProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BtnFragmentRegis"
+            android:text="Fragment_Profile"
+            android:onClick="ChangeFragment"
+            />
+
+        <fragment
+            android:name="com.porawee.week6fragment.RegisFragment"
+
+            android:id="@+id/FragmentDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/BtnFragmentProfile"
+            android:layout_margin="10dp"
+            >
+        </fragment>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

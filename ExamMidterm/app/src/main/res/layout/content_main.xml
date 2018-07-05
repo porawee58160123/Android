@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_for_fragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.porawee.exammidterm.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_spider" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="259 THB "/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_english" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="289 THB "/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_grammar" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="189 THB "/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_superman" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="329 THB "/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_travel" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="199 THB "/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/img_food" />
+                <TextView
+                    android:layout_marginLeft="-76dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="99 THB "/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

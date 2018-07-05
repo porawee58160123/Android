@@ -1,0 +1,381 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.porawee.exammidterm.BookStoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEE"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_superman" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHead"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="Superman/Wonder Woman Vol. 1"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="23 กันยายน 2557"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textViewRef"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="125 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTwo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/imageViewTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_english" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHeadTwo"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="English Grammar and Usage Made Easy"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDesTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="23 กันยายน 2557"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textViewRefTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="185 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutThree"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/imageViewThree"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_travel" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHeadThree"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="เที่ยวเชียงใหม่ฉบับสมบูรณ์"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDesThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="25 มีนาคม 2560"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textViewRefThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="200 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutFour"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/imageViewFour"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_spider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHeadFour"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="The 8th Spider Shepherd Thriller"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDesFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="21 กรกฎาคม 2554"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textViewRefFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="285 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutFive"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/imageViewFive"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_grammar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewHeadFive"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="English Grammar: Rules and Usage"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textViewDesFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="17 สิงหาคม 2559"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textViewRefFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="195 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#fff">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/img_food" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:ellipsize="end"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="All Day Food"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="2"
+                        android:text="17 สิงหาคม 2559"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="14sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:text="99 บาท"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

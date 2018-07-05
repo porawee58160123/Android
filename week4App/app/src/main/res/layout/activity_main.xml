@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc">
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Touch to listen to Animal Sound"
+        android:textColor="#555555"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ImgTxtRhino"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtViewTitle"
+        android:layout_margin="10dp"
+        android:src="@drawable/rhino" />
+
+    <ImageView
+        android:id="@+id/ImgTxtTiger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtViewTitle"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/ImgTxtRhino"
+        android:src="@drawable/tiger" />
+
+    <ImageView
+        android:id="@+id/ImgTxtSheep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtViewTitle"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/ImgTxtTiger"
+        android:src="@drawable/sheep" />
+
+    <ImageView
+        android:id="@+id/ImgTxtCat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtRhino"
+        android:layout_margin="10dp"
+        android:src="@drawable/cat" />
+    <ImageView
+        android:id="@+id/ImgTxtCow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtTiger"
+        android:layout_toRightOf="@id/ImgTxtCat"
+        android:layout_margin="10dp"
+        android:src="@drawable/cow" />
+    <ImageView
+        android:id="@+id/ImgTxtDog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtSheep"
+        android:layout_toRightOf="@id/ImgTxtCow"
+        android:layout_margin="10dp"
+        android:src="@drawable/dog" />
+    <ImageView
+        android:id="@+id/ImgTxtgoat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtCat"
+        android:layout_margin="10dp"
+        android:src="@drawable/goat" />
+    <ImageView
+        android:id="@+id/ImgTxthorse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtCow"
+        android:layout_toRightOf="@id/ImgTxtgoat"
+        android:layout_margin="10dp"
+        android:src="@drawable/horse" />
+    <ImageView
+        android:id="@+id/ImgTxtpig"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ImgTxtDog"
+        android:layout_toRightOf="@id/ImgTxthorse"
+        android:layout_margin="10dp"
+        android:src="@drawable/pig" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bookStore"
+            android:icon="@drawable/book_icon"
+            android:title="ร้านหนังสือ" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login_icon"
+            android:title="ลงชื่อเข้าใช้บัญชีของคุณ" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ico_regis"
+            android:title="สมัครสมาชิก" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/help"
+            android:title="ช่วยเหลือ / เสนอแนะ" />
+        <item
+            android:id="@+id/nav_scoreApp"
+            android:icon="@drawable/score_icon"
+            android:title="ให้คะแนนแอพ" />
+    </group>
+
+</menu>

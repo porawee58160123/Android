@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porawee.exammidterm.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#bdffffff"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#36ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp">
+
+            <RelativeLayout
+                android:layout_marginTop="20pt"
+                android:id="@+id/logoGruop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/booklogo" />
+
+                <TextView
+                    android:id="@+id/logoname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:text="Book️"
+                    android:textColor="#fff"
+                    android:textSize="60px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:layout_toRightOf="@+id/logoname"
+                    android:text="Store"
+                    android:textColor="#fff"
+                    android:textSize="60px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:id="@+id/logininput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoGruop"
+                android:layout_marginTop="50px"
+                android:background="@drawable/edit_text"
+                android:paddingEnd="2px"
+                android:paddingStart="2px"
+                android:paddingTop="5px">
+
+                <RelativeLayout
+                    android:id="@+id/usernameGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/usernamePic"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginTop="5pt"
+                        android:src="@drawable/username" />
+
+                    <EditText
+                        android:id="@+id/usernameInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/usernamePic"
+                        android:background="#00ffffff"
+                        android:hint="Username"
+                        android:inputType="text"
+                        android:padding="20px"
+                        android:radius="10dp"
+                        android:textColorHint="#9affffff"
+                        android:textColor="#fff"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mid"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_below="@+id/usernameGroup"
+                    android:layout_centerHorizontal="true"
+                    android:background="#9affffff"></RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/passwordGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mid"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/passwordPic"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginTop="5pt"
+                        android:src="@drawable/password" />
+
+                    <EditText
+                        android:id="@+id/passworInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/passwordPic"
+                        android:background="#00ffffff"
+                        android:hint="Password"
+                        android:inputType="text"
+                        android:padding="20px"
+                        android:radius="10dp"
+                        android:textColorHint="#9affffff"
+                        android:textColor="#fff"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <Button
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logininput"
+                android:layout_marginTop="10pt"
+                android:background="@drawable/btn"
+                android:text="Login >"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="40px" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>

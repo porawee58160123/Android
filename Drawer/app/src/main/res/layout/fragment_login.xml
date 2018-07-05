@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porawee.drawer.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fca487"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="11dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="#ECF0F1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="30sp"
+                android:textColor="#b3703c"
+                android:layout_marginBottom="16dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:id="@+id/username"
+                android:hint="User Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_login"
+                android:background="#dc674d"
+                android:textColor="#faffffff"
+                android:text="login"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_register"
+                android:background="#dc674d"
+                android:textColor="#faffffff"
+                android:text="register"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:text="SE Android"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="16dp"/>
+
+    </RelativeLayout>
+</FrameLayout>

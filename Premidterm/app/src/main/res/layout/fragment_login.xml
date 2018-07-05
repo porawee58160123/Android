@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porawee.premidterm.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="#bdffffff"
+       >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            />
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="#60ffffff"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="30dp"
+           android:layout_marginLeft="50dp">
+
+       <LinearLayout
+           android:id="@+id/logo_profile"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginTop="40dp"
+           android:layout_centerHorizontal="true">
+
+           <ImageView
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/shape_frame_profile"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="5dp"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:textColor="#be0668"
+               android:text="Book Store"/>
+       </LinearLayout>
+        <LinearLayout
+            android:id="@+id/login"
+            android:layout_below="@+id/logo_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            >
+
+            <EditText
+                android:id="@+id/usernameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/usernamePic"
+                android:background="#00ffffff"
+                android:hint="Username"
+                android:inputType="text"
+                android:padding="20px"
+                android:radius="10dp"
+                android:textColorHint="#9affffff"
+                android:textColor="#fff"/>
+
+            <RelativeLayout
+                android:id="@+id/mid"
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_below="@+id/usernameGroup"
+                android:layout_centerHorizontal="true"
+                android:background="#9affffff"></RelativeLayout>
+
+            <EditText
+                android:id="@+id/passworInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/passwordPic"
+                android:background="#00ffffff"
+                android:hint="Password"
+                android:inputType="text"
+                android:padding="20px"
+                android:radius="10dp"
+                android:textColorHint="#9affffff"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_below="@+id/login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="20dp">
+
+           <Button
+               android:id="@+id/btn_login"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20pt"
+               android:layout_marginRight="20pt"
+               android:textAllCaps="false"
+               android:textColor="#fff"
+               android:textSize="40px"
+               android:text="Login > "
+               android:background="#399ad4"/>
+       </LinearLayout>
+
+       </RelativeLayout>
+
+   </RelativeLayout>
+
+
+
+</FrameLayout>
